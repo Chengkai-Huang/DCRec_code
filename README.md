@@ -1,5 +1,9 @@
 # DCRec
 
+This is the implementation of the WSDM 2026 paper:
+> [Dual Conditional Diffusion Models for Sequential Recommendation](https://arxiv.org/abs/2410.21967)
+
+
 ## Reproduce the results
 
 ### Amazon Beauty Data
@@ -16,3 +20,12 @@ python -u main.py --data amazon_beauty  --timesteps 50  --mode train  --loss_typ
 
 ### Dataset Overview
 ![Datasets](./datasets.png)
+
+If you find this work helpful, please cite:
+```bibtex
+@article{huang2024dual,
+  title={Dual conditional diffusion models for sequential recommendation},
+  author={Huang, Hongtao and Huang, Chengkai and Yu, Tong and Chang, Xiaojun and Hu, Wen and McAuley, Julian and Yao, Lina},
+  journal={arXiv preprint arXiv:2410.21967},
+  year={2024}
+}
